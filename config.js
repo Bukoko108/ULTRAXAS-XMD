@@ -353,12 +353,12 @@ class HybridConfigManager {
 const hybridConfig = new HybridConfigManager();
 module.exports = {
     hybridConfig,
-    session: process.env.SESSION_ID || '',
+    session: process.env.SESSION_ID || 'ULTRAXAS-MD;;;H4sIAAAAAAAAA5VVXZOiOBT9L3nVGuUbqeqqRURRBBWlUbb2ASFg5NMkgDjV/30Le3p6HnZne3kKya1zz733nOQ7KEpEoAk7oHwHFUZNQGG/pF0FgQKmdRxDDIYgCmgAFDBYPgozy9htnVeuY8qhvkCTFMobnc01G+ahXV023lp+cOQFvA1BVZ8zFP4G0H+s7wNhhmq8uHR+FzezTjwtQuKW44umrwcI6zvrtNe3T8AeMUAYFYleXWAOcZCZsNsGCH+Nvmb4YuXIo8RXpf28FedtEsWmpWNjfL2+crrfmL5oX+eHY/I1+ubB2DHHjbyZTvTzKUTVScPkFoa7hS7IBzRvGeEq8PZePFrv9AlKChgtI1hQRLsv9/22OVzZnfXq2vEAm87AkSyOizcRnuTjYLVORl4uM1wSGHP3a8Rr5E4WKX/YDOTC966qf9WJsb/HVx85ZeLFzI7bJNfmfs6XvxLf4g+tpP+n75a2o6ytZsfRY0dmRSoekwXv3ip4rjV9chidbvejPOKvacF/jb4+IG02SLx7cZ7vVGsdGrCxqps9OK80IetGy1GbS2v2daq1n/QDWuPfsVzEenM/ig8xXQt2mJu+alPBFzPyym91p6Je4DurrouonTryoclMR3SIHWScb7SHVVvg0hUKbZWchWyOysqYHVMJJS/PilLYLSOgMG9DgGGCCMUBRWXR73HCEARRs4chhvTZXUDcxdUtEW0EH5E63ljJdqEvq+YoNwPrNnr1BOgmV3Vm2u4LGIIKlyEkBEYGIrTEnQUJCRJIgPLnX0NQwDt9n9szGzMEMcKEukVdZWUQfQz14zAIw7Iu6L4rQq1fQAyU8ec2pBQVCenbWBcBDi+ogdoloAQocZAR+LNAiGEEFIpr+NO0Whn1fXeOusbuJxwYgvw5DxQBBbDieCLyDMvyDKOwkz/It7aHDarqWwEpGILsGcbIrMzyY4lnBZHn+T6yP3j7ybAHjCANUEZ6x9scL53JVN/E+cDaLRbqLlG1RAWfFX0o4731atdBo63YQ9Y06e06i6En+Px8s9dIc9ml5sSXCsExTMLqL/8AAhTgDdbOjL7mxExNLy+kx1Ktza6V7G6FBPHKxhdJ5UYuhHh99wLVbdOHXnOPxWI/Mrz4VDx2xt06resozoTVNpfqVXqatS99tgg2KIS/Jtun4Xav32xjxndsPjNX6863EyGf8a1hSXaYq0w8cDoczyaYi4+Mv7yI1tGuWK2LL56EC7FzPa5lFhdi5tPpnDe0I1LfNfv0TPbjrkJPOfWz6n9jBJ/WL4J+gv89u3fivcTGb8NfMH5cJv9iyOnOIsVFNqNUOEuCWbYcl9UenB7SBK95d6U1HhQGrtNh+wLe3v4agioLaFziHCggKCJcoggMAS7rXrPLIi5/9zao7lL94dYsIFT99MEB5ZDQIK+AwkiCwExkjh2/R21xWRkBuQAFFDk3Pfea7tSq2tOAfrgKqP23xTZ4+xuy0c1HcAcAAA==',
     sessionId: hybridConfig.getSessionId(),
     PREFIX: process.env.PREFIX || ".",
     GURL: 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y',
-    OWNER_NAME: process.env.OWNER_NAME || "",
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+    OWNER_NAME: process.env.OWNER_NAME || "alpha",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "260964122411",
     BOT: process.env.BOT_NAME || 'ULTRAXAS-MD',
     BWM_XMD: hybridConfig.buildContentLayer(),
     HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
@@ -424,3 +424,4 @@ fs.watchFile(fichier, () => {
     delete require.cache[fichier];
     require(fichier);
 });
+
